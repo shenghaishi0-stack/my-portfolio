@@ -1,18 +1,18 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  title: 'IoT & AI Developer Blog',
+  author: 'zhengyuxuan',
+  headerTitle: 'IoT & AI 开发者博客',
+  description: '井冈山大学机电学院机械自动化专业，专注 ESP32 / AIoT / AI应用开发。在江西宇瑞数字科技有限公司担任嵌入式软件开发实习生，有智能家居网关、RAGFlow 知识库等项目经验。',
+  language: 'zh-cn',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteRepo: 'https://github.com/shenghaishi0-stack/my-portfolio',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
+  email: '942718916@qq.com',
+  github: ' https://github.com/shenghaishi0-stack',
   x: 'https://twitter.com/x',
   // twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
@@ -22,7 +22,7 @@ const siteMetadata = {
   instagram: 'https://www.instagram.com',
   medium: 'https://medium.com',
   bluesky: 'https://bsky.app/',
-  locale: 'en-US',
+  locale: 'zh-Cn',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
   analytics: {
