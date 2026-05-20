@@ -7,6 +7,14 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: '智能物流看板',
+    description: `企业级物流管理全栈系统，已稳定部署至生产环境。支持 2000+ 订单批量异步导入，100+ 快递公司实时追踪，JWT 权限管控与完整操作审计。
+    采用异步队列 + 服务器扩容解决大并发批量处理难题，Docker 打包、Nginx 反向代理实现 Windows 服务器稳定部署。
+    【技术栈】React 19 / NestJS / TypeScript / MySQL / Redis / BullMQ / Recharts / Docker / Nginx`,
+    imgSrc: '/static/images/logistics-dashboard.png',
+    href: '/blog/logistics-dashboard',
+  },
+  {
     title: '智能家居智控系统',
     description: `基于 ESP32 + Home Assistant + Three.js 的开放式智能家居控制系统，荣获青少年创新大赛奖项。
     支持三维房屋可视化控制界面、AI 语音本地部署、人脸/指纹多模态身份识别、Node-RED 低代码自动化。
