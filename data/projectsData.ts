@@ -7,12 +7,13 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: '智能家居网关系统',
-    description: `基于 ESP32-S3 + MQTT + FreeRTOS 的智能家居统一控制网关，支持 Home Assistant 平台。
-    实现 WiFi/BLE 设备统一接入、本地化控制、语音助手对接，支持 50+ 设备同时在线，响应时间 <100ms。
-    【技术栈】ESP32-S3 / ESP-IDF v5.2 / FreeRTOS / MQTT / Home Assistant`,
-    imgSrc: '/static/images/smart-home.jpg',
-    href: 'https://github.com/shenghaishi0-stack/smart-home-gateway',
+    title: '智能家居智控系统',
+    description: `基于 ESP32 + Home Assistant + Three.js 的开放式智能家居控制系统，荣获青少年创新大赛奖项。
+    支持三维房屋可视化控制界面、AI 语音本地部署、人脸/指纹多模态身份识别、Node-RED 低代码自动化。
+    打破品牌封闭壁垒，兼容米家/涂鸦/Aqara等主流平台，单设备成本控制在30元以内。
+    【技术栈】ESP32-S3 / Home Assistant / MQTT / Three.js / OpenCV / Node-RED / MCP Server`,
+    imgSrc: '/static/images/smart-home-ui.png',
+    href: '/blog/smart-home-system',
   },
   {
     title: 'ESP32-P4 流体监控系统',
